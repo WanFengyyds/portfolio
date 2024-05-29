@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+#nome {
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+}
+
+.allPage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 37%;
+    margin-right: 37%;
+    width: 100%;
+    height: fit-content;
+}
+
+.github {
+    width: fit-content;
+    height: fit-content;
+}
+
+button {
+    margin: 0;
+    background-color: 0;
+    background-color: rgb(255, 255, 255, 0);
+    box-shadow: none;
+    border: 0;
+}
+
+.nomeCreatore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

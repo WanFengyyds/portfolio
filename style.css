@@ -54,10 +54,20 @@ body::-webkit-scrollbar-thumb {
 .github {
     width: fit-content;
     height: fit-content;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .github i {
     color: gray;
+}
+
+.github:hover {
+    background-color: white;
+}
+
+.github:hover i {
+    color: black;
 }
 
 button {

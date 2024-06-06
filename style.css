@@ -132,12 +132,7 @@ button {
     font-size: 18;
 }
 
-.projectImage {
-    width: 90%;
-    overflow: hidden;
-    box-shadow: 0 40px 50px 10px rgba(0, 0, 0, .25);
-    border-radius: 36px;
-}
+
 
 .imageAlign {
     display: flex;
@@ -145,10 +140,25 @@ button {
     justify-content: center;
 }
 
+.projectImage {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 40px 50px 10px rgba(0, 0, 0, .25);
+    border-radius: 36px;
+    transition: transform 1s ease;
+}
+
+.projectImage:hover {
+    transform: scale(1.05);
+}
+
 p {
     word-spacing: -1px;
     margin: 0;
 }
+
+
 
 @media (max-width: 900px) {
     .titleOfProject {

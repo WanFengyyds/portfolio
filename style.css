@@ -1,5 +1,6 @@
 body {
     overflow: auto;
+    color: white;
     background-color: black;
 }
 
@@ -327,7 +328,14 @@ p {
     }
 
     .skillPresentation {
+        padding: 5%;
+        color: white;
         font-size: 20px;
+        align-items: center;
+        font-family: "Reddit Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin-left: 6%;
     }
 
 }

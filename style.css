@@ -1,6 +1,25 @@
 body {
+    overflow: auto;
     background-color: black;
 }
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgb(169, 169, 169, 0.7);
+}
+
 
 #nome {
     color: gray;
@@ -262,6 +281,31 @@ p {
 
     .project-card {
         height: 250px;
+        width: 90%;
+    }
+
+    .topBar {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .presentation {
+        width: 90%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .item {
+        height: 50px;
+        width: 100px;
+    }
+
+    .wrapper {
+        height: 50px;
+    }
+
+    .logo {
+        height: 50px;
     }
 
 }
